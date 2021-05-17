@@ -1,3 +1,4 @@
 import { createStore } from 'redux';
-import { messageReducer } from './Messages/messageReducer';
-export const store = createStore(messageReducer);
+import { rootReducer } from './rootReducer';
+
+export const store = createStore(rootReducer);
